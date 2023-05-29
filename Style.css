@@ -1,0 +1,188 @@
+/*.wrapper{
+	display: justify;
+	margin: auto;
+	width: 90%;
+	background-color: blue;
+}*/
+
+.nav{
+	width: 100%;
+	height: 100px;
+	background-color: blue;
+}
+
+/*ul{
+	display:inline-block;
+}
+
+ul li{
+	list-style: none;
+	display: justify;
+	float: left;
+	line-height: 100px;
+}
+
+ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	font-family: arial;
+	padding: 0 20px;
+	display: justify;
+	color: #1e1e1e;
+}
+
+.leftFrame{
+	width: 20%;
+	height: 1000px;
+	background-color: red;
+	display: inline-block;
+	right-margin:3px;
+	padding:5px;
+	float:left;
+}
+
+.rightFrame{
+	width: 70%;
+	height: 1000px;
+	background-color: blue;
+	display: inline-block;
+	padding:5px;
+	left-margin:3px;
+}
+
+.frameContent{
+	text-align:top;
+}
+
+.background-image{
+	background-imzge: url('./Dark.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 100px;
+}*/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.body{
+	font-family: verdana;
+}
+
+.banner-area{
+	width: 100%;
+	height: 90vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Dark.jpg);
+	background-size: cover ;
+	
+}
+
+.content-area{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center ;
+}
+
+.content{
+	text-align: center;
+	
+	/*width: 100%;
+	height: 100vh;
+	background-image: url(Dark.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;*/
+	transition: 5s;
+	animation-name: animate;
+	animation-direction: alternate-reverse;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+	animation-duration: 30s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+
+@keyframes animate{
+	0%{
+		background-image: url(English Project/Sign.jpg);
+	}
+	
+	20%{
+		background-image: url(English Project/Tribe.jpg);
+	}
+	
+	40%{
+		background-image: url(English Project/Boers.jpg);
+	}
+	
+	60%{
+		background-image: url(English Project/Movie.jpg);
+	}
+	
+	80%{
+		background-image: url(English Project/Dark.jpg);
+	}
+	100%{
+		background-image: url(English Project/Sign.jpg);
+	}
+}
+
+.content h1{
+	font-size: 80px;
+	color: #fff;
+}
+
+.content p{
+	font-size: 30px;
+	color: #ddd ;
+}
+
+/*.container{
+	width: 70%;
+	margin: 50px auto;
+	padding: 10px;
+}*/
+
+.navbar {
+	text-align:justify;
+	width:100%;
+	height:10vh;
+	background-color: DimGray;
+	font-family: Verdana, Arial, Sans-Serif;
+	margin: auto;
+	border: 2px solid DimGray;
+	border-radius: 5px;
+
+}
+
+.navChoice {
+	font-size: 1em;
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px 30px;
+	color: white;
+		
+	
+}
+
+.navChoice:hover {
+	background-color:gray;
+	
+	
+}
+.navbar:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
+
+a.noLine {
+	text-decoration: none;
+	
+}
+
+

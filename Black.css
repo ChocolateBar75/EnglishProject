@@ -1,0 +1,71 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.body{
+	font-family: verdana;
+	
+}
+
+.banner-area{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Riot.jpg);
+	background-size: cover ;
+}
+
+.content-area{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center ;
+}
+
+.content{
+	text-align: center;
+}
+
+.content h1{
+	font-size: 80px;
+	color: #fff;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 95%;
+	background-color: white;
+}
+
+.wrap{
+	margin: 0 auto;
+	width: 65%;
+	background-color: white;
+}
+
+article{
+	font-family: arial;
+	font-size: 18px;
+	text-align: ;
+	line-height: 40px;
+}
+
+.indent{
+	text-indent: 30px;
+	margin-left: 20px;
+}
+
+body{
+	background-color: lightgray;
+}
+
+.image{
+	width: 100%;
+}
+
+footer{
+	background-color: Gray;
+	padding: 10px;
+}
+
